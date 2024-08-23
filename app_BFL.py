@@ -1,3 +1,5 @@
+#BLACK FOREST LABS
+
 import torch
 from diffusers import FluxPipeline
 
