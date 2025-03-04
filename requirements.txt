@@ -1,8 +1,3 @@
-smolagents 
-datasets 
-langchain 
-sentence-transformers 
-faiss-cpu 
-duckduckgo-search 
-openai 
-langchain-community
+pandas==2.2.1
+pyyaml==6.0.1
+sqlite3
