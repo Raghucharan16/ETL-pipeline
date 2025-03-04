@@ -1,0 +1,10 @@
+paths:
+  input_file: "data/input/sales_data.csv"
+  output_db: "data/output/sales_database.db"
+  log_file: "logs/etl_log.log"
+
+database:
+  table_name: "processed_sales"
+
+logging:
+  level: "INFO"

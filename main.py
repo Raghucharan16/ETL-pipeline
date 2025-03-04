@@ -4,10 +4,10 @@ from src.extract import Extractor
 from src.transform import Transformer
 from src.load import Loader
 
-def setup_logging():
+def setup_logging(config):
     logging.basicConfig(
-        filename='log/etl.log',
-        level=getattr(logging,"INFO"),
+        filename=config['paths']['log_file'],
+        level=getattr(logging, config['logging']['level']),
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
 
@@ -17,7 +17,7 @@ def main():
         config = yaml.safe_load(f)
     
     # Setup logging
-    setup_logging()
+    setup_logging(config)
     logger = logging.getLogger(__name__)
     
     try:
