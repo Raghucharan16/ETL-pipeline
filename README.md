@@ -1,4 +1,3 @@
-# Text2Img
+## Sample project for ETL pipeline
 
-### Real Time Prompt to Image conversion using BlackForestLabs Models.
-### {Not for CPU, will not work even if you have 16GB of RAM}
+extracts ,transorms, load data
