@@ -1,6 +1,6 @@
 paths:
-  input_file: "data/input/sales_data.csv"
-  output_db: "data/output/sales_database.db"
+  input_file: "data/input/actual_data.csv" 
+  output_db: "data/output/preferred_db_engine.db
   log_file: "logs/etl_log.log"
 
 database:
