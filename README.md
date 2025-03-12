@@ -1,3 +1,3 @@
 ## Sample project for ETL pipeline
 
-extracts ,transorms, load data
+extracts ,transforms and load data
